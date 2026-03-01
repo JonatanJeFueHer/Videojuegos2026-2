@@ -12,10 +12,13 @@ public class ControlJugador : MonoBehaviour
     private float tiempoSaltoActual = 0f;
     private float tiempoAnterior;
 
+    //variable para acceder al script jugador.
+    private Jugador jugador;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        jugador = GetComponent<Jugador>();
     }
 
     // Update is called once per frame
@@ -38,12 +41,12 @@ public class ControlJugador : MonoBehaviour
             jugador.enSuelo = false;
             tiempoSaltoActual = 0f;
         }
-        if(!jugador.enSuelo && Imput.GetAxis("Jump") > 0)
+        if(!jugador.enSuelo && Input.GetAxis("Jump") > 0)
         {
             if(tiempoSaltoActual < tiempoMaxSalto)
             {
-                velocidadVertical += 20f * delta;
-                tiempoSaltoActual *= delta;
+                velocidadVertical += -gravedad * delta;
+                tiempoSaltoActual += delta;
             }
         }
         if(Input.GetAxis("Jump") == 0)
