@@ -12,6 +12,15 @@ double sx, sy, squash;          // xy scale factors
 double rot, rdir;             // rotation
 double ball_speed;
 
+// --- PALETAS ---
+#define PADDLE_W  5.0f
+#define PADDLE_H  25.0f
+
+float paddle1_y = 60.0f;   // Jugador 1 (izquierda)
+float paddle2_y = 60.0f;   // Jugador 2 (derecha)
+float paddle_speed = 3.0f;
+
+
 GLfloat T1[16] = { 1.,0.,0.,0.,\
 				  0.,1.,0.,0.,\
 				  0.,0.,1.,0.,\
@@ -46,6 +55,15 @@ void draw_ball() {
 	glColor3f(0.6, 0.3, 0.);
 	MyCircle2f(0., 0., RadiusOfBall);
 
+}
+
+void draw_paddle(float x, float y) {
+	glBegin(GL_QUADS);
+	glVertex2f(x, y - PADDLE_H / 2);
+	glVertex2f(x + PADDLE_W, y - PADDLE_H / 2);
+	glVertex2f(x + PADDLE_W, y + PADDLE_H / 2);
+	glVertex2f(x, y + PADDLE_H / 2);
+	glEnd();
 }
 
 void Display(void)
@@ -124,6 +142,12 @@ void Display(void)
 	glMultMatrixf(T1);
 
 	draw_ball();
+	// Dibujar paletas
+	glLoadIdentity();
+	glColor3f(1.0f, 1.0f, 1.0f);
+	draw_paddle(5.0f, paddle1_y);   // Paleta izquierda
+	draw_paddle(150.0f, paddle2_y);   // Paleta derecha
+
 	glutPostRedisplay();
 
 
