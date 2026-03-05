@@ -20,6 +20,10 @@ float paddle1_y = 60.0f;   // Jugador 1 (izquierda)
 float paddle2_y = 60.0f;   // Jugador 2 (derecha)
 float paddle_speed = 3.0f;
 
+// --- VARIABLES DE TECLAS PRESIONADAS ---
+bool key_w = false, key_s = false;
+bool key_up = false, key_down = false;
+
 
 GLfloat T1[16] = { 1.,0.,0.,0.,\
 				  0.,1.,0.,0.,\
@@ -66,8 +70,40 @@ void draw_paddle(float x, float y) {
 	glEnd();
 }
 
+//Funciones de teclado.
+void keyboard(unsigned char key, int x, int y) {
+	if (key == 'w' || key == 'W') key_w = true;
+	if (key == 's' || key == 'S') key_s = true;
+}
+
+void keyboardUp(unsigned char key, int x, int y) {
+	if (key == 'w' || key == 'W') key_w = false;
+	if (key == 's' || key == 'S') key_s = false;
+}
+
+void specialKeys(int key, int x, int y) {
+	if (key == GLUT_KEY_UP)   key_up = true;
+	if (key == GLUT_KEY_DOWN) key_down = true;
+}
+
+void specialKeysUp(int key, int x, int y) {
+	if (key == GLUT_KEY_UP)   key_up = false;
+	if (key == GLUT_KEY_DOWN) key_down = false;
+}
+
+
 void Display(void)
 {
+
+	// Mover paleta 1 (W/S) con límites de pantalla
+	if (key_w && paddle1_y + PADDLE_H / 2 < 120) paddle1_y += paddle_speed;
+	if (key_s && paddle1_y - PADDLE_H / 2 > 0)   paddle1_y -= paddle_speed;
+
+	// Mover paleta 2 (flechas) con límites de pantalla
+	if (key_up && paddle2_y + PADDLE_H / 2 < 120) paddle2_y += paddle_speed;
+	if (key_down && paddle2_y - PADDLE_H / 2 > 0)   paddle2_y -= paddle_speed;
+
+
 	// swap the buffers
 	glutSwapBuffers();
 
@@ -95,6 +131,29 @@ void Display(void)
 
 	}
 	else {
+
+		// Mover pelota en X
+		xpos += xdir * ball_speed;
+
+		// Rebotar en techo y suelo
+		if (ypos >= 120 - RadiusOfBall) ydir = -1;
+		if (ypos <= RadiusOfBall)       ydir = 1;
+
+		// Colisión con paleta izquierda (Jugador 1)
+		if (xpos - RadiusOfBall <= 10.0f &&
+			ypos >= paddle1_y - PADDLE_H / 2 &&
+			ypos <= paddle1_y + PADDLE_H / 2) {
+			xdir = 1;
+		}
+
+		// Colisión con paleta derecha (Jugador 2)
+		if (xpos + RadiusOfBall >= 150.0f &&
+			ypos >= paddle2_y - PADDLE_H / 2 &&
+			ypos <= paddle2_y + PADDLE_H / 2) {
+			xdir = -1;
+		}
+
+
 		// set Y position to increment 1.5 times the direction of the bounce
 		ypos += ydir * ball_speed;
 
@@ -192,6 +251,10 @@ int main(int argc, char* argv[])
 	init();
 	glutDisplayFunc(Display);
 	glutReshapeFunc(reshape);
+	glutKeyboardFunc(keyboard);
+	glutKeyboardUpFunc(keyboardUp);
+	glutSpecialFunc(specialKeys);
+	glutSpecialUpFunc(specialKeysUp);
 	glutMainLoop();
 
 	return 1;
