@@ -5,12 +5,15 @@
 					 // it also includes gl.h and glu.h for the openGL library calls
 #include <math.h>
 
+#include <stdio.h>
+
+
 #define PI 3.1415926535898 
 
 double xpos, ypos, ydir, xdir;         // x and y position for house to be drawn
 double sx, sy, squash;          // xy scale factors
 double rot, rdir;             // rotation
-double ball_speed;
+double ball_speed;            //velocidad de la pelota.
 
 // --- PALETAS ---
 #define PADDLE_W  5.0f
@@ -18,12 +21,17 @@ double ball_speed;
 
 float paddle1_y = 60.0f;   // Jugador 1 (izquierda)
 float paddle2_y = 60.0f;   // Jugador 2 (derecha)
-float paddle_speed = 3.0f;
+float paddle_speed = 100.0f; // unidades/segundo
+
+// --- DELTA TIME ---
+double lastTime = 0.0; // tiempo anterior en segundos
 
 // --- VARIABLES DE TECLAS PRESIONADAS ---
 bool key_w = false, key_s = false;
 bool key_up = false, key_down = false;
 
+//--- VARIABLES PARA PUNTAJE ---
+int score1 = 0, score2 = 0;
 
 GLfloat T1[16] = { 1.,0.,0.,0.,\
 				  0.,1.,0.,0.,\
@@ -53,14 +61,14 @@ void MyCircle2f(GLfloat centerx, GLfloat centery, GLfloat radius) {
 	glEnd();
 }
 
-GLfloat RadiusOfBall = 15.;
+GLfloat RadiusOfBall = 5.;
 // Draw the ball, centered at the origin
 void draw_ball() {
 	glColor3f(0.6, 0.3, 0.);
 	MyCircle2f(0., 0., RadiusOfBall);
 
 }
-
+// Dibuja una paleta, con el centro en (x,y).
 void draw_paddle(float x, float y) {
 	glBegin(GL_QUADS);
 	glVertex2f(x, y - PADDLE_H / 2);
@@ -68,6 +76,13 @@ void draw_paddle(float x, float y) {
 	glVertex2f(x + PADDLE_W, y + PADDLE_H / 2);
 	glVertex2f(x, y + PADDLE_H / 2);
 	glEnd();
+}
+
+// Imprime marcador en consola y fuerza el flush para ver salida inmediatamente
+void printScoreToConsole()
+{
+	printf(">> PUNTO! Jugador 1: %d  |  Jugador 2: %d\n", score1, score2);
+	fflush(stdout);
 }
 
 //Funciones de teclado.
@@ -94,123 +109,98 @@ void specialKeysUp(int key, int x, int y) {
 
 void Display(void)
 {
+    // --- DELTA TIME ---
+    double currentTime = glutGet(GLUT_ELAPSED_TIME) / 1000.0;
+    double deltaTime = currentTime - lastTime;
+    if (deltaTime < 0.0) deltaTime = 0.0;
+    if (deltaTime > 0.05) deltaTime = 0.05;
+    lastTime = currentTime;
 
-	// Mover paleta 1 (W/S) con límites de pantalla
-	if (key_w && paddle1_y + PADDLE_H / 2 < 120) paddle1_y += paddle_speed;
-	if (key_s && paddle1_y - PADDLE_H / 2 > 0)   paddle1_y -= paddle_speed;
+    // --- MOVER PALETAS ---
+    if (key_w) paddle1_y += paddle_speed * (float)deltaTime;
+    if (key_s) paddle1_y -= paddle_speed * (float)deltaTime;
+    if (paddle1_y + PADDLE_H / 2 > 120.0f) paddle1_y = 120.0f - PADDLE_H / 2;
+    if (paddle1_y - PADDLE_H / 2 < 0.0f)   paddle1_y = PADDLE_H / 2;
 
-	// Mover paleta 2 (flechas) con límites de pantalla
-	if (key_up && paddle2_y + PADDLE_H / 2 < 120) paddle2_y += paddle_speed;
-	if (key_down && paddle2_y - PADDLE_H / 2 > 0)   paddle2_y -= paddle_speed;
+    if (key_up)   paddle2_y += paddle_speed * (float)deltaTime;
+    if (key_down) paddle2_y -= paddle_speed * (float)deltaTime;
+    if (paddle2_y + PADDLE_H / 2 > 120.0f) paddle2_y = 120.0f - PADDLE_H / 2;
+    if (paddle2_y - PADDLE_H / 2 < 0.0f)   paddle2_y = PADDLE_H / 2;
 
+    glClear(GL_COLOR_BUFFER_BIT);
 
-	// swap the buffers
-	glutSwapBuffers();
+    // --- LÓGICA DE PELOTA ---
+    if (ypos <= RadiusOfBall && ydir <= -0.5) {
+        sy = sy * squash;
+        if (sy < 0.8)
+            squash = 1.1;
+        else if (sy > 1.) {
+            sy = 1.;
+            squash = 0.9;
+            ydir = 1;
+        }
+        sx = 1. / sy;
+    }
+    else {
+        xpos += xdir * ball_speed * deltaTime;
+        ypos += ydir * ball_speed * deltaTime;
 
-	//clear all pixels with the specified clear color
-	glClear(GL_COLOR_BUFFER_BIT);
-	// 160 is max X value in our world
+        // Rebotar techo y suelo
+        if (ypos >= 120 - RadiusOfBall) { ypos = 120 - RadiusOfBall; ydir = -1; }
+        if (ypos <= RadiusOfBall) { ypos = RadiusOfBall;        ydir = 1; }
 
+        // Colisión paleta izquierda
+        if (xpos - RadiusOfBall <= 10.0f &&
+            ypos >= paddle1_y - PADDLE_H / 2 &&
+            ypos <= paddle1_y + PADDLE_H / 2) {
+            xdir = 1;
+            xpos = 10.0f + RadiusOfBall; // evitar que quede atrapada
+        }
 
-	  // Shape has hit the ground! Stop moving and start squashing down and then back up 
-	if (ypos == RadiusOfBall && ydir == -1) {
-		sy = sy * squash;
+        // Colisión paleta derecha
+        if (xpos + RadiusOfBall >= 150.0f &&
+            ypos >= paddle2_y - PADDLE_H / 2 &&
+            ypos <= paddle2_y + PADDLE_H / 2) {
+            xdir = -1;
+            xpos = 150.0f - RadiusOfBall; // evitar que quede atrapada
+        }
 
-		if (sy < 0.8)
-			// reached maximum suqash, now unsquash back up 
-			squash = 1.1;
-		else if (sy > 1.) {
-			// reset squash parameters and bounce ball back upwards
-			sy = 1.;
-			squash = 0.9;
-			ydir = 1;
-		}
-		sx = 1. / sy;
+        if (xpos > 160) {
+            score1++;
+            printScoreToConsole();
+            xpos = 80; ypos = 60;
+            xdir = -1; ydir = 1;
+            sx = sy = 1.; squash = 0.9;
+        }
+        if (xpos < 0) {
+            score2++;
+            printScoreToConsole();
+            xpos = 80; ypos = 60;
+            xdir = 1; ydir = 1;
+            sx = sy = 1.; squash = 0.9;
+        }
+    }
 
-		// 120 is max Y value in our world
+    // --- DIBUJAR PELOTA ---
+    T[12] = xpos;
+    T[13] = ypos;
+    glLoadMatrixf(T);
+    T1[13] = -RadiusOfBall;
+    glMultMatrixf(T1);
+    S[0] = sx; S[5] = sy;
+    glMultMatrixf(S);
+    T1[13] = RadiusOfBall;
+    glMultMatrixf(T1);
+    draw_ball();
 
-	}
-	else {
+    // --- DIBUJAR PALETAS ---
+    glLoadIdentity();
+    glColor3f(1.0f, 1.0f, 1.0f);
+    draw_paddle(5.0f, paddle1_y);
+    draw_paddle(150.0f, paddle2_y);
 
-		// Mover pelota en X
-		xpos += xdir * ball_speed;
-
-		// Rebotar en techo y suelo
-		if (ypos >= 120 - RadiusOfBall) ydir = -1;
-		if (ypos <= RadiusOfBall)       ydir = 1;
-
-		// Colisión con paleta izquierda (Jugador 1)
-		if (xpos - RadiusOfBall <= 10.0f &&
-			ypos >= paddle1_y - PADDLE_H / 2 &&
-			ypos <= paddle1_y + PADDLE_H / 2) {
-			xdir = 1;
-		}
-
-		// Colisión con paleta derecha (Jugador 2)
-		if (xpos + RadiusOfBall >= 150.0f &&
-			ypos >= paddle2_y - PADDLE_H / 2 &&
-			ypos <= paddle2_y + PADDLE_H / 2) {
-			xdir = -1;
-		}
-
-
-		// set Y position to increment 1.5 times the direction of the bounce
-		ypos += ydir * ball_speed;
-
-		// If ball touches the top, change direction of ball downwards
-		if (ypos == 120 - RadiusOfBall) {
-			ydir = -1;
-		}
-		// If ball touches the bottom, change direction of ball upwards
-		else if (ypos < RadiusOfBall)
-			ydir = 1;
-	}
-
-	/*  //reset transformation state
-	  glLoadIdentity();
-
-	  // apply translation
-	  glTranslatef(xpos,ypos, 0.);
-
-	  // Translate ball back to center
-	  glTranslatef(0.,-RadiusOfBall, 0.);
-	  // Scale the ball about its bottom
-	  glScalef(sx,sy, 1.);
-	  // Translate ball up so bottom is at the origin
-	  glTranslatef(0.,RadiusOfBall, 0.);
-	  // draw the ball
-	  draw_ball();
-	*/
-
-	//Translate the bouncing ball to its new position
-	T[12] = xpos;
-	T[13] = ypos;
-	glLoadMatrixf(T);
-
-	T1[13] = -RadiusOfBall;
-	// Translate ball back to center
-	glMultMatrixf(T1);
-	S[0] = sx;
-	S[5] = sy;
-	// Scale the ball about its bottom
-	glMultMatrixf(S);
-
-	T1[13] = RadiusOfBall;
-	// Translate ball up so bottom is at the origin
-
-	glMultMatrixf(T1);
-
-	draw_ball();
-	// Dibujar paletas
-	glLoadIdentity();
-	glColor3f(1.0f, 1.0f, 1.0f);
-	draw_paddle(5.0f, paddle1_y);   // Paleta izquierda
-	draw_paddle(150.0f, paddle2_y);   // Paleta derecha
-
-	glutPostRedisplay();
-
-
-
+    glutSwapBuffers();
+    glutPostRedisplay();
 }
 
 
@@ -236,8 +226,10 @@ void init(void) {
 	xpos = 80; ypos = RadiusOfBall; xdir = 1; ydir = 1;
 	sx = 1.; sy = 1.; squash = 0.9;
 	rot = 0;
-	ball_speed = 1.5;
+	ball_speed = 60.0; // unidades/segundo
 
+	// inicializar tiempo
+	lastTime = glutGet(GLUT_ELAPSED_TIME) / 1000.0;
 }
 
 
