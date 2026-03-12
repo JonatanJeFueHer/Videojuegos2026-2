@@ -54,14 +54,17 @@ public class ControlJugador : MonoBehaviour
         transform.position += new Vector3(velocidadActual * delta, 0, 0);
 
         //Salto
-        if (Input.GetAxis("Jump") > 0 && jugador.enSuelo)
-        {
-            velocidadVertical = 10f;
-            jugador.enSuelo = false;
-            tiempoSaltoActual = 0f;
-        }
-        if (!jugador.enSuelo && Input.GetAxis("Jump") > 0)
-        {
+        if (bufferTimer > 0)
+        { //Salto con coyote time y buffer.
+            if (coyoteTimer > 0)
+            {
+                velocidadVertical = fuerzaSalto;
+                jugador.enSuelo = false;
+                bufferTimer = 0;
+                coyoteTimer = 0;
+            }
+            if (!jugador.enSuelo && Input.GetAxis("Jump") > 0)
+
             if (tiempoSaltoActual < tiempoMaxSalto)
             {
                 velocidadVertical += -gravedad * delta;
@@ -104,15 +107,6 @@ public class ControlJugador : MonoBehaviour
             bufferTimer = tiempoBufferSalto;
         else
             bufferTimer -= delta;
-
-        //Salto con coyote time y buffer.
-        if (bufferTimer > 0 && coyoteTimer > 0)
-        {
-            velocidadVertical = fuerzaSalto;
-            jugador.enSuelo = false;
-            bufferTimer = 0;
-            coyoteTimer = 0;
-        }
 
         //Gravedad mejorada.
         if (velocidadVertical < 0)
