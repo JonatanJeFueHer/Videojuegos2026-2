@@ -418,7 +418,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ControlJugador
   velocidadActual: 0
   velocidadMax: 5
-  "aceleraci\xF3n": 10
+  aceleracion: 10
   velocidadVertical: 0
   gravedad: -20
   tiempoMaxSalto: 0.2
@@ -590,8 +590,8 @@ Transform:
   m_GameObject: {fileID: 1643016989}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.62, y: -1.77, z: 0}
-  m_LocalScale: {x: 7.5099425, y: 0.36092144, z: 1}
+  m_LocalPosition: {x: -4.6561, y: -3.5873, z: 0}
+  m_LocalScale: {x: 9.237981, y: 0.32638127, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -922,7 +922,7 @@ Transform:
   m_GameObject: {fileID: 1824210773}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.79, y: -2.63, z: 0}
+  m_LocalPosition: {x: 5.72, y: -2.63, z: 0}
   m_LocalScale: {x: 7.5099425, y: 0.36092144, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

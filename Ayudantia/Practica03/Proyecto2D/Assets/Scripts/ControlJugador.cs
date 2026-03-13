@@ -5,7 +5,7 @@ public class ControlJugador : MonoBehaviour
     //Variables para velocidad, aceleración, gravedad y estado vertical.
     public float velocidadActual = 0f;
     public float velocidadMax = 5f;
-    public float aceleración = 10f;
+    public float aceleracion = 10f;
     public float velocidadVertical = 0f;
     public float gravedad = -20f;
     public float tiempoMaxSalto = 0.2f;
@@ -49,7 +49,7 @@ public class ControlJugador : MonoBehaviour
 
         //Movimiento lateral con aceleración.
         float h = Input.GetAxis("Horizontal");
-        velocidadActual += h * aceleración * delta;
+        velocidadActual += h * aceleracion * delta;
         velocidadActual = Mathf.Clamp(velocidadActual, -velocidadMax, velocidadMax);
         transform.position += new Vector3(velocidadActual * delta, 0, 0);
 
@@ -60,14 +60,14 @@ public class ControlJugador : MonoBehaviour
             {
                 velocidadVertical = fuerzaSalto;
                 jugador.enSuelo = false;
+                //tiempoSaltoActual=0; empezamos a contar el tiempo de salto
                 bufferTimer = 0;
                 coyoteTimer = 0;
             }
-            if (!jugador.enSuelo && Input.GetAxis("Jump") > 0)
 
             if (tiempoSaltoActual < tiempoMaxSalto)
             {
-                velocidadVertical += -gravedad * delta;
+                velocidadVertical += -17 * delta;
                 tiempoSaltoActual += delta;
             }
         }
@@ -75,13 +75,18 @@ public class ControlJugador : MonoBehaviour
         {
             tiempoSaltoActual = tiempoMaxSalto;
         }
+
         if (jugador.enSuelo)
         {
             velocidadVertical = 0;
         }
-        else
+        else //Este else lo puse como en la clase, con la gravedad mejorada dentro
         {
-            velocidadVertical += gravedad * delta;
+            //Gravedad mejorada.
+            if (velocidadVertical < 0)
+                velocidadVertical += gravedadCaida * delta;
+            else
+                velocidadVertical += gravedad * delta;
         }
         transform.position += new Vector3(0, velocidadVertical * delta, 0);
 
@@ -107,14 +112,5 @@ public class ControlJugador : MonoBehaviour
             bufferTimer = tiempoBufferSalto;
         else
             bufferTimer -= delta;
-
-        //Gravedad mejorada.
-        if (velocidadVertical < 0)
-            velocidadVertical += gravedadCaida * delta;
-        else
-            velocidadVertical += gravedad * delta;
-
-        //Movimiento final.
-        transform.position += new Vector3(velocidadActual * delta, velocidadVertical * delta, 0);
     }
 }
