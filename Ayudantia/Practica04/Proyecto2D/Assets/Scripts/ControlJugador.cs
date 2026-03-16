@@ -29,6 +29,22 @@ public class ControlJugador : MonoBehaviour
     //variable para acceder al script jugador.
     private Jugador jugador;
 
+    //Variable para acceder al Animator.
+    private Animator anim;
+
+    //Variables para efectos de sonido.
+    public AudioClip sonidoSalto;
+    public AudioClip sonidoPaso;
+    public AudioSource audioSrc;
+
+    //Inicializamos referencia a Jugador, Animator y AudioSource.
+    void Awake()
+    {
+        jugador = GetComponent<Jugador>();
+        anim = GetComponent<Animator>();
+        audioSrc = GetComponent<AudioSource>();
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -43,6 +59,14 @@ public class ControlJugador : MonoBehaviour
         estaSaltando = velocidadVertical > 0.1f;
         estaCayendo = velocidadVertical < -0.1f;
 
+        //Evitar errores si no hay Animator, pero actualizar las variables de estado de todas formas.
+        if (anim != null)
+        {
+            anim.SetBool("Caminando", estaCaminando);
+            anim.SetBool("Saltando", estaSaltando);
+            anim.SetBool("Cayendo", estaCayendo);
+        }
+
         //Calculo manual de deltaTime.
         float delta = Time.time - tiempoAnterior;
         tiempoAnterior = Time.time;
@@ -52,6 +76,12 @@ public class ControlJugador : MonoBehaviour
         velocidadActual += h * aceleracion * delta;
         velocidadActual = Mathf.Clamp(velocidadActual, -velocidadMax, velocidadMax);
         transform.position += new Vector3(velocidadActual * delta, 0, 0);
+        //Sonido de pasos.
+        if(estaCaminando && jugador.enSuelo)
+        {
+            if(!audioSrc.isPlaying)
+                audioSrc.PlayOneShot(sonidoPaso);
+        }
 
         //Salto
         if (bufferTimer > 0)
@@ -60,7 +90,7 @@ public class ControlJugador : MonoBehaviour
             {
                 velocidadVertical = fuerzaSalto;
                 jugador.enSuelo = false;
-                //tiempoSaltoActual=0; empezamos a contar el tiempo de salto
+                audioSrc.PlayOneShot(sonidoSalto);
                 bufferTimer = 0;
                 coyoteTimer = 0;
             }
@@ -75,7 +105,7 @@ public class ControlJugador : MonoBehaviour
         {
             tiempoSaltoActual = tiempoMaxSalto;
         }
-
+        //Gravedad y movimiento vertical.
         if (jugador.enSuelo)
         {
             velocidadVertical = 0;
