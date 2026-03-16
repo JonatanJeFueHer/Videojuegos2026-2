@@ -1,0 +1,26 @@
+using UnityEngine;
+using UnityEngine.AI;
+
+public class AgentMovement : MonoBehaviour
+{
+    NavMeshAgent agent;
+    // Start is called before the first frame update
+    void Start()
+    {
+        agent = GetComponent<NavMeshAgent>();
+        SetRandomDestination();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if(!agent.pathPending && agent.remainingDistance < 0.5f)
+            SetRandomDestination();
+    }
+
+    void SetRandomDestination()
+    {
+        Vector3 randomPos = new Vector3(Random.Range(-20f, 20f), 0, Random.Range(-20f,20f));
+        agent.SetDestination(randomPos);
+    }
+}
