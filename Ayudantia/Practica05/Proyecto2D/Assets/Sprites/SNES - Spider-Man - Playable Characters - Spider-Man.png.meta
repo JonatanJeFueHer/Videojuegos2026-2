@@ -1,0 +1,3551 @@
+fileFormatVersion: 2
+guid: 4fc2128e4195b8747a38143e809f1792
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6112099527899202207
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_0
+  - first:
+      213: 6903447312134902738
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_1
+  - first:
+      213: 603303332160372092
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_2
+  - first:
+      213: 6170398384036336190
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_3
+  - first:
+      213: -4418514813041138744
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_4
+  - first:
+      213: 2510315597746281503
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_5
+  - first:
+      213: -5996792714360164898
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_6
+  - first:
+      213: -8604087835171767414
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_7
+  - first:
+      213: -5767078901987539839
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_8
+  - first:
+      213: 4998934119119131545
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_9
+  - first:
+      213: 7540453548639216576
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_10
+  - first:
+      213: -85910583184964366
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_11
+  - first:
+      213: -6296932560821483171
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_12
+  - first:
+      213: -8573722980822483473
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_13
+  - first:
+      213: 62906336350011448
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_14
+  - first:
+      213: -1589990721744252148
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_15
+  - first:
+      213: 1087016086697991661
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_16
+  - first:
+      213: 1919473379254848200
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_17
+  - first:
+      213: 4094785460098399685
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_18
+  - first:
+      213: 3966943879740794590
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_19
+  - first:
+      213: -743999444981279607
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_20
+  - first:
+      213: -7007020704660107600
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_21
+  - first:
+      213: 9015148147343780808
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_22
+  - first:
+      213: -3192076296115119854
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_23
+  - first:
+      213: 4342981561252791646
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_24
+  - first:
+      213: -5168202897142574641
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_25
+  - first:
+      213: -6251123273729059370
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_26
+  - first:
+      213: -6402872435560548958
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_27
+  - first:
+      213: 4136389414118021625
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_28
+  - first:
+      213: 8634085049171225500
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_29
+  - first:
+      213: 1116048217939987247
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_30
+  - first:
+      213: 8262649850898476144
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_31
+  - first:
+      213: -4539471158832518585
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_32
+  - first:
+      213: 609994921632829747
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_33
+  - first:
+      213: 3947324675397251391
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_34
+  - first:
+      213: 8371841910972054459
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_35
+  - first:
+      213: 1511669679504629238
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_36
+  - first:
+      213: -6742067808765667103
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_37
+  - first:
+      213: -3686485252621626133
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_38
+  - first:
+      213: 7426878536839095376
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_39
+  - first:
+      213: 2614334552412176925
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_40
+  - first:
+      213: -1164017580221730819
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_41
+  - first:
+      213: -2168123871006759500
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_42
+  - first:
+      213: -8881831930651596835
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_43
+  - first:
+      213: 2340272437127305313
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_44
+  - first:
+      213: -5444153186393712250
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_45
+  - first:
+      213: 1176592695785136842
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_46
+  - first:
+      213: -708598932411630166
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_47
+  - first:
+      213: 1512234437134111346
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_48
+  - first:
+      213: 4231810473523999062
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_49
+  - first:
+      213: -8620753354726170138
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_50
+  - first:
+      213: -4821275844647631963
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_51
+  - first:
+      213: 7774328552173718194
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_52
+  - first:
+      213: -2082426968620507146
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_53
+  - first:
+      213: 6060171645252131213
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_54
+  - first:
+      213: -8541487787624566873
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_55
+  - first:
+      213: 8669967329723584281
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_56
+  - first:
+      213: 7160858220518051429
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_57
+  - first:
+      213: -1947213709115380683
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_58
+  - first:
+      213: -2336343858794892877
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_59
+  - first:
+      213: -73622223057774074
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_60
+  - first:
+      213: -9125437291271041386
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_61
+  - first:
+      213: 1801334251188921896
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_62
+  - first:
+      213: 7396544100653380726
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_63
+  - first:
+      213: 7073209964035332214
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_64
+  - first:
+      213: -3142030512550352065
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_65
+  - first:
+      213: 2194894878872338573
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_66
+  - first:
+      213: 7250949716026690795
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_67
+  - first:
+      213: 6336793904777579307
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_68
+  - first:
+      213: -2823240890578870379
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_69
+  - first:
+      213: 6477737775184156995
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_70
+  - first:
+      213: 963403269456845360
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_71
+  - first:
+      213: -5828387971871552486
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_72
+  - first:
+      213: 1932373534729495816
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_73
+  - first:
+      213: 8097832987764563890
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_74
+  - first:
+      213: 2387839714488477337
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_75
+  - first:
+      213: -635516308975363832
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_76
+  - first:
+      213: 7806181704685814627
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_77
+  - first:
+      213: -8912216406432270402
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_78
+  - first:
+      213: -9172177873068221072
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_79
+  - first:
+      213: 8345545190688050714
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_80
+  - first:
+      213: 8626474099753719800
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_81
+  - first:
+      213: -8352362224283668745
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_82
+  - first:
+      213: 2420096727686410029
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_83
+  - first:
+      213: 2643684328411942728
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_84
+  - first:
+      213: 3577309621027351454
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_85
+  - first:
+      213: 3439789336783343828
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_86
+  - first:
+      213: -6809089427084967199
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_87
+  - first:
+      213: -3595658615579801148
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_88
+  - first:
+      213: -5655568180389610049
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_89
+  - first:
+      213: 8347547361352738083
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_90
+  - first:
+      213: -895344511438469232
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_91
+  - first:
+      213: 1898450237379802913
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_92
+  - first:
+      213: 7552510551618963538
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_93
+  - first:
+      213: -1957614597168214494
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_94
+  - first:
+      213: 689187315691161706
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_95
+  - first:
+      213: -4051408888259728462
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_96
+  - first:
+      213: 5545151997301651093
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_97
+  - first:
+      213: 6095034502744263692
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_98
+  - first:
+      213: -2313664001730874877
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_99
+  - first:
+      213: 5841378062041365466
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_100
+  - first:
+      213: -3734545888144967461
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_101
+  - first:
+      213: 1952938816121143101
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_102
+  - first:
+      213: 7038879228594811578
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_103
+  - first:
+      213: -4059061815240960204
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_104
+  - first:
+      213: -7275304867532739459
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_105
+  - first:
+      213: -6593530937734427037
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_106
+  - first:
+      213: 577396595559090491
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_107
+  - first:
+      213: -4034296900874904488
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_108
+  - first:
+      213: -7374515682893878432
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_109
+  - first:
+      213: 4761286035855656484
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_110
+  - first:
+      213: 2435671787479275113
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_111
+  - first:
+      213: 8056867608646808639
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_112
+  - first:
+      213: -3694416696941145353
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_113
+  - first:
+      213: -6593895105305853868
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_114
+  - first:
+      213: 8972246271525004160
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_115
+  - first:
+      213: -4467510340384483836
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_116
+  - first:
+      213: 6983757121479901171
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_117
+  - first:
+      213: 6117414166835409220
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_118
+  - first:
+      213: -8876238766354559940
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_119
+  - first:
+      213: -6961558307982814391
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_120
+  - first:
+      213: 6679390425644481307
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_121
+  - first:
+      213: 1948101027321159267
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_122
+  - first:
+      213: 2048960077977948763
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_123
+  - first:
+      213: -7980019257203353809
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_124
+  - first:
+      213: -8205415545686273873
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_125
+  - first:
+      213: 989270569344931352
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_126
+  - first:
+      213: -4795893345392334198
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_127
+  - first:
+      213: -8247822638355151942
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_128
+  - first:
+      213: -680209245939957237
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_129
+  - first:
+      213: -7484914896997698322
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_130
+  - first:
+      213: -2421772392962561774
+    second: SNES - Spider-Man - Playable Characters - Spider-Man_131
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1144
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d3cb7dcd57d2ba0800000000000000
+      internalID: -6112099527899202207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_1
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1144
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d31d6d11c8fdcf50800000000000000
+      internalID: 6903447312134902738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_2
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1143
+        width: 47
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d7a352f2d5f5800800000000000000
+      internalID: 603303332160372092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_3
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1143
+        width: 40
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32512b53a8a1a550800000000000000
+      internalID: 6170398384036336190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_4
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1143
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c3a1e510384ea2c0800000000000000
+      internalID: -4418514813041138744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_5
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1145
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c1ac56cbe66d220800000000000000
+      internalID: 2510315597746281503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_6
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1074
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd69e47ccc17cca0800000000000000
+      internalID: -5996792714360164898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_7
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1074
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8bb35843b3289880800000000000000
+      internalID: -8604087835171767414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_8
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1074
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184026f3b4837ffa0800000000000000
+      internalID: -5767078901987539839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_9
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1074
+        width: 26
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9931da98818cf5540800000000000000
+      internalID: 4998934119119131545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_10
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1074
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c369fb2d8215a860800000000000000
+      internalID: 7540453548639216576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_11
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1074
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f440de97c8cecef0800000000000000
+      internalID: -85910583184964366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_12
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1074
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5905a1d23dcc98a0800000000000000
+      internalID: -6296932560821483171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_13
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1074
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fedf87ddf54040980800000000000000
+      internalID: -8573722980822483473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_14
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1074
+        width: 29
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8308348cafc7fd000800000000000000
+      internalID: 62906336350011448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_15
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1074
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c03544adcd73fe9e0800000000000000
+      internalID: -1589990721744252148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_16
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1074
+        width: 39
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dedd4c02f5bd51f00800000000000000
+      internalID: 1087016086697991661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_17
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1074
+        width: 46
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cacd4e5ed653aa10800000000000000
+      internalID: 1919473379254848200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_18
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 992
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cd799c4ea993d830800000000000000
+      internalID: 4094785460098399685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_19
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 992
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed62cdbd07a6d0730800000000000000
+      internalID: 3966943879740794590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_20
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 992
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9849dc85278cca5f0800000000000000
+      internalID: -743999444981279607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_21
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 993
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be4dec3bcf02ce90800000000000000
+      internalID: -7007020704660107600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_22
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 993
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb62f7c97d3c1d70800000000000000
+      internalID: 9015148147343780808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_23
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 992
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2191d12658773b3d0800000000000000
+      internalID: -3192076296115119854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_24
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 992
+        width: 49
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e554b8848be554c30800000000000000
+      internalID: 4342981561252791646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_25
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 992
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc11cace8dad648b0800000000000000
+      internalID: -5168202897142574641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_26
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 992
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5d33e908c8f39a0800000000000000
+      internalID: -6251123273729059370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_27
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 992
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a5f548917d6427a0800000000000000
+      internalID: -6402872435560548958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_28
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 992
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9d031b148676930800000000000000
+      internalID: 4136389414118021625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_29
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 992
+        width: 53
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9bac5c5b9e62d770800000000000000
+      internalID: 8634085049171225500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_30
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 917
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b458ee0fffc7f00800000000000000
+      internalID: 1116048217939987247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_31
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 967
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07cec321344daa270800000000000000
+      internalID: 8262649850898476144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_32
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 917
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74a28ad380f8001c0800000000000000
+      internalID: -4539471158832518585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_33
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 919
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33197ba3623277800800000000000000
+      internalID: 609994921632829747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_34
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 915
+        width: 55
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31ff22e0e6b7c630800000000000000
+      internalID: 3947324675397251391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_35
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 904
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb7733bcd1ce2470800000000000000
+      internalID: 8371841910972054459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_36
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 904
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd1a9870978af410800000000000000
+      internalID: 1511669679504629238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_37
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 914
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e81de68c0d5f62a0800000000000000
+      internalID: -6742067808765667103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_38
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 930
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be495cfc139f6dcc0800000000000000
+      internalID: -3686485252621626133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_39
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 913
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05464421ea2911760800000000000000
+      internalID: 7426878536839095376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_40
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 911
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12ce809c6bf74420800000000000000
+      internalID: 2614334552412176925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_41
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 910
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dffe2929d2498dfe0800000000000000
+      internalID: -1164017580221730819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_42
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 798
+        width: 39
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5e89793d649e1e0800000000000000
+      internalID: -2168123871006759500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_43
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 797
+        width: 39
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd72ac2cae46db480800000000000000
+      internalID: -8881831930651596835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_44
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 864
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1685c9cd1615a7020800000000000000
+      internalID: 2340272437127305313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_45
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 525
+        width: 366
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6891136758b7274b0800000000000000
+      internalID: -5444153186393712250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_46
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 800
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2a79da2d8145010800000000000000
+      internalID: 1176592695785136842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_47
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 798
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad3269760d8a26f0800000000000000
+      internalID: -708598932411630166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_48
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 830
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 272dd7a55398cf410800000000000000
+      internalID: 1512234437134111346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_49
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 825
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 651fc2f54396aba30800000000000000
+      internalID: 4231810473523999062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_50
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 796
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e12a43af7eec5880800000000000000
+      internalID: -8620753354726170138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_51
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 796
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a34b9bd923671db0800000000000000
+      internalID: -4821275844647631963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_52
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 796
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bacd77c0a6f3eb60800000000000000
+      internalID: 7774328552173718194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_53
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 719
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff5ea884bbb913e0800000000000000
+      internalID: -2082426968620507146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_54
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 733
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d89d521d00e0a1450800000000000000
+      internalID: 6060171645252131213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_55
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 728
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7afec45ac1a867980800000000000000
+      internalID: -8541487787624566873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_56
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 718
+        width: 42
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f8a66d959e15870800000000000000
+      internalID: 8669967329723584281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_57
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 719
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e0ae89c9a706360800000000000000
+      internalID: 7160858220518051429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_58
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 717
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c2866c27b1af4e0800000000000000
+      internalID: -1947213709115380683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_59
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 714
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b17d5f83a3a39fd0800000000000000
+      internalID: -2336343858794892877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_60
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 713
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a111b6af07afef0800000000000000
+      internalID: -73622223057774074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_61
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 713
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ecfa9d12feb5180800000000000000
+      internalID: -9125437291271041386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_62
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 653
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8262cd325ff9ff810800000000000000
+      internalID: 1801334251188921896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_63
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 640
+        width: 28
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674b4f4cbadc5a660800000000000000
+      internalID: 7396544100653380726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_64
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 644
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6785410acf6192260800000000000000
+      internalID: 7073209964035332214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_65
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 638
+        width: 25
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b6ff165e34564d0800000000000000
+      internalID: -3142030512550352065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_66
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 642
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8082866345d57e10800000000000000
+      internalID: 2194894878872338573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_67
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 640
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec8dfb795c80a460800000000000000
+      internalID: 7250949716026690795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_68
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 639
+        width: 28
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2bc02d8b70d0f750800000000000000
+      internalID: 6336793904777579307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_69
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 570
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f50b14e55d1d8d0800000000000000
+      internalID: -2823240890578870379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_70
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 570
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3491bfd9f2c85e950800000000000000
+      internalID: 6477737775184156995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_71
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 569
+        width: 68
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03adc635b22be5d00800000000000000
+      internalID: 963403269456845360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_72
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 569
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ccf6b05086d1fa0800000000000000
+      internalID: -5828387971871552486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_73
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 569
+        width: 40
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805eaeedd7b21da10800000000000000
+      internalID: 1932373534729495816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_74
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 569
+        width: 73
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf952eb238416070800000000000000
+      internalID: 8097832987764563890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_75
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 569
+        width: 40
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996e7aaa19f432120800000000000000
+      internalID: 2387839714488477337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_76
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 497
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8095e8ab8413e27f0800000000000000
+      internalID: -635516308975363832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_77
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 486
+        width: 26
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36383f7c6e0255c60800000000000000
+      internalID: 7806181704685814627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_78
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 497
+        width: 56
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb73235b562715480800000000000000
+      internalID: -8912216406432270402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_79
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 467
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d121b12d0e5b080800000000000000
+      internalID: -9172177873068221072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_80
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 374
+        width: 83
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e4ee3622551d370800000000000000
+      internalID: 8345545190688050714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_81
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 377
+        width: 79
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f79deb1d7467b770800000000000000
+      internalID: 8626474099753719800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_82
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 372
+        width: 58
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe2e2a4fc2761c80800000000000000
+      internalID: -8352362224283668745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_83
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 367
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f65dfc629e59120800000000000000
+      internalID: 2420096727686410029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_84
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 369
+        width: 68
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84fc24dc3e040b420800000000000000
+      internalID: 2643684328411942728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_85
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 376
+        width: 74
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b2cec952825a130800000000000000
+      internalID: 3577309621027351454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_86
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 368
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0d5215d269cbf20800000000000000
+      internalID: 3439789336783343828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_87
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 321
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e28bbefd314181a0800000000000000
+      internalID: -6809089427084967199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_88
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 280
+        width: 42
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c90bcc2a87a91ec0800000000000000
+      internalID: -3595658615579801148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_89
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 275
+        width: 43
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbdffd454b26381b0800000000000000
+      internalID: -5655568180389610049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_90
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 270
+        width: 35
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325ed23191278d370800000000000000
+      internalID: 8347547361352738083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_91
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 251
+        width: 33
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0974d1c19e81393f0800000000000000
+      internalID: -895344511438469232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_92
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 257
+        width: 41
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12777c6be66a85a10800000000000000
+      internalID: 1898450237379802913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_93
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 261
+        width: 29
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25843afe458efc860800000000000000
+      internalID: 7552510551618963538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_94
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 272
+        width: 35
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e4ba055e725d4e0800000000000000
+      internalID: -1957614597168214494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_95
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 277
+        width: 42
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a680a7f463c709900800000000000000
+      internalID: 689187315691161706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_96
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 223
+        width: 60
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb2b67d41186c7c0800000000000000
+      internalID: -4051408888259728462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_97
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 277
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59676b0bc5654fc40800000000000000
+      internalID: 5545151997301651093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_98
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 215
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c42dd5699e59450800000000000000
+      internalID: 6095034502744263692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_99
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 219
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302f83749d634efd0800000000000000
+      internalID: -2313664001730874877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_100
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 218
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb3cb2066eb01150800000000000000
+      internalID: 5841378062041365466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_101
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 219
+        width: 60
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd839bb1d4a3c2cc0800000000000000
+      internalID: -3734545888144967461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_102
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 139
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ff8f2918b3a1b10800000000000000
+      internalID: 1952938816121143101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_103
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 137
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2f4456d5f1fa160800000000000000
+      internalID: 7038879228594811578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_104
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 138
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437d53de8c05ba7c0800000000000000
+      internalID: -4059061815240960204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_105
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 137
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c6a0ae4cce80b90800000000000000
+      internalID: -7275304867532739459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_106
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 151
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e8ac0db821f74a0800000000000000
+      internalID: -6593530937734427037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_107
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 138
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b39c1dcf423530800800000000000000
+      internalID: 577396595559090491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_108
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 138
+        width: 55
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c54e0e75c4308c0800000000000000
+      internalID: -4034296900874904488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_109
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 139
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b209aee0578a990800000000000000
+      internalID: -7374515682893878432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_110
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 141
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42644395c6c731240800000000000000
+      internalID: 4761286035855656484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_111
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 146
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9669422069e3dc120800000000000000
+      internalID: 2435671787479275113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_112
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 140
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f347eb7276ebfcf60800000000000000
+      internalID: 8056867608646808639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_113
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 134
+        width: 60
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f21d86869bcabcc0800000000000000
+      internalID: -3694416696941145353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_114
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 8
+        width: 56
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 450ce027657cd74a0800000000000000
+      internalID: -6593895105305853868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_115
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 84
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083229b6272d38c70800000000000000
+      internalID: 8972246271525004160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_116
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 82
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4069ffae3073002c0800000000000000
+      internalID: -4467510340384483836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_117
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 84
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fff967b91a4be060800000000000000
+      internalID: 6983757121479901171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_118
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 84
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441ba26f5cb65e450800000000000000
+      internalID: 6117414166835409220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_119
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 84
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c82edced341d480800000000000000
+      internalID: -8876238766354559940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_120
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 84
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943d3815a93936f90800000000000000
+      internalID: -6961558307982814391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_121
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 84
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b3fa40436f1bc50800000000000000
+      internalID: 6679390425644481307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_122
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 82
+        width: 46
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e1d08109b090b10800000000000000
+      internalID: 1948101027321159267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_123
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 84
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5215d6c55e5f6c10800000000000000
+      internalID: 2048960077977948763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_124
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 84
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f271e99f3c6414190800000000000000
+      internalID: -7980019257203353809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_125
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 84
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa0d6ec0902802e80800000000000000
+      internalID: -8205415545686273873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_126
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 82
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8169d8867589abd00800000000000000
+      internalID: 989270569344931352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_127
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 84
+        width: 35
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8aea3f7960917db0800000000000000
+      internalID: -4795893345392334198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_128
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 82
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab38a6e5209d98d80800000000000000
+      internalID: -8247822638355151942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_129
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 67
+        width: 44
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0200d27b496f86f0800000000000000
+      internalID: -680209245939957237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_130
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 67
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee43c66de8d302890800000000000000
+      internalID: -7484914896997698322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Playable Characters - Spider-Man_131
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 67
+        width: 90
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2196e96f6d2246ed0800000000000000
+      internalID: -2421772392962561774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 67cff8c9018f902409a790a093ed910d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      SNES - Spider-Man - Playable Characters - Spider-Man_0: -6112099527899202207
+      SNES - Spider-Man - Playable Characters - Spider-Man_1: 6903447312134902738
+      SNES - Spider-Man - Playable Characters - Spider-Man_10: 7540453548639216576
+      SNES - Spider-Man - Playable Characters - Spider-Man_100: 5841378062041365466
+      SNES - Spider-Man - Playable Characters - Spider-Man_101: -3734545888144967461
+      SNES - Spider-Man - Playable Characters - Spider-Man_102: 1952938816121143101
+      SNES - Spider-Man - Playable Characters - Spider-Man_103: 7038879228594811578
+      SNES - Spider-Man - Playable Characters - Spider-Man_104: -4059061815240960204
+      SNES - Spider-Man - Playable Characters - Spider-Man_105: -7275304867532739459
+      SNES - Spider-Man - Playable Characters - Spider-Man_106: -6593530937734427037
+      SNES - Spider-Man - Playable Characters - Spider-Man_107: 577396595559090491
+      SNES - Spider-Man - Playable Characters - Spider-Man_108: -4034296900874904488
+      SNES - Spider-Man - Playable Characters - Spider-Man_109: -7374515682893878432
+      SNES - Spider-Man - Playable Characters - Spider-Man_11: -85910583184964366
+      SNES - Spider-Man - Playable Characters - Spider-Man_110: 4761286035855656484
+      SNES - Spider-Man - Playable Characters - Spider-Man_111: 2435671787479275113
+      SNES - Spider-Man - Playable Characters - Spider-Man_112: 8056867608646808639
+      SNES - Spider-Man - Playable Characters - Spider-Man_113: -3694416696941145353
+      SNES - Spider-Man - Playable Characters - Spider-Man_114: -6593895105305853868
+      SNES - Spider-Man - Playable Characters - Spider-Man_115: 8972246271525004160
+      SNES - Spider-Man - Playable Characters - Spider-Man_116: -4467510340384483836
+      SNES - Spider-Man - Playable Characters - Spider-Man_117: 6983757121479901171
+      SNES - Spider-Man - Playable Characters - Spider-Man_118: 6117414166835409220
+      SNES - Spider-Man - Playable Characters - Spider-Man_119: -8876238766354559940
+      SNES - Spider-Man - Playable Characters - Spider-Man_12: -6296932560821483171
+      SNES - Spider-Man - Playable Characters - Spider-Man_120: -6961558307982814391
+      SNES - Spider-Man - Playable Characters - Spider-Man_121: 6679390425644481307
+      SNES - Spider-Man - Playable Characters - Spider-Man_122: 1948101027321159267
+      SNES - Spider-Man - Playable Characters - Spider-Man_123: 2048960077977948763
+      SNES - Spider-Man - Playable Characters - Spider-Man_124: -7980019257203353809
+      SNES - Spider-Man - Playable Characters - Spider-Man_125: -8205415545686273873
+      SNES - Spider-Man - Playable Characters - Spider-Man_126: 989270569344931352
+      SNES - Spider-Man - Playable Characters - Spider-Man_127: -4795893345392334198
+      SNES - Spider-Man - Playable Characters - Spider-Man_128: -8247822638355151942
+      SNES - Spider-Man - Playable Characters - Spider-Man_129: -680209245939957237
+      SNES - Spider-Man - Playable Characters - Spider-Man_13: -8573722980822483473
+      SNES - Spider-Man - Playable Characters - Spider-Man_130: -7484914896997698322
+      SNES - Spider-Man - Playable Characters - Spider-Man_131: -2421772392962561774
+      SNES - Spider-Man - Playable Characters - Spider-Man_14: 62906336350011448
+      SNES - Spider-Man - Playable Characters - Spider-Man_15: -1589990721744252148
+      SNES - Spider-Man - Playable Characters - Spider-Man_16: 1087016086697991661
+      SNES - Spider-Man - Playable Characters - Spider-Man_17: 1919473379254848200
+      SNES - Spider-Man - Playable Characters - Spider-Man_18: 4094785460098399685
+      SNES - Spider-Man - Playable Characters - Spider-Man_19: 3966943879740794590
+      SNES - Spider-Man - Playable Characters - Spider-Man_2: 603303332160372092
+      SNES - Spider-Man - Playable Characters - Spider-Man_20: -743999444981279607
+      SNES - Spider-Man - Playable Characters - Spider-Man_21: -7007020704660107600
+      SNES - Spider-Man - Playable Characters - Spider-Man_22: 9015148147343780808
+      SNES - Spider-Man - Playable Characters - Spider-Man_23: -3192076296115119854
+      SNES - Spider-Man - Playable Characters - Spider-Man_24: 4342981561252791646
+      SNES - Spider-Man - Playable Characters - Spider-Man_25: -5168202897142574641
+      SNES - Spider-Man - Playable Characters - Spider-Man_26: -6251123273729059370
+      SNES - Spider-Man - Playable Characters - Spider-Man_27: -6402872435560548958
+      SNES - Spider-Man - Playable Characters - Spider-Man_28: 4136389414118021625
+      SNES - Spider-Man - Playable Characters - Spider-Man_29: 8634085049171225500
+      SNES - Spider-Man - Playable Characters - Spider-Man_3: 6170398384036336190
+      SNES - Spider-Man - Playable Characters - Spider-Man_30: 1116048217939987247
+      SNES - Spider-Man - Playable Characters - Spider-Man_31: 8262649850898476144
+      SNES - Spider-Man - Playable Characters - Spider-Man_32: -4539471158832518585
+      SNES - Spider-Man - Playable Characters - Spider-Man_33: 609994921632829747
+      SNES - Spider-Man - Playable Characters - Spider-Man_34: 3947324675397251391
+      SNES - Spider-Man - Playable Characters - Spider-Man_35: 8371841910972054459
+      SNES - Spider-Man - Playable Characters - Spider-Man_36: 1511669679504629238
+      SNES - Spider-Man - Playable Characters - Spider-Man_37: -6742067808765667103
+      SNES - Spider-Man - Playable Characters - Spider-Man_38: -3686485252621626133
+      SNES - Spider-Man - Playable Characters - Spider-Man_39: 7426878536839095376
+      SNES - Spider-Man - Playable Characters - Spider-Man_4: -4418514813041138744
+      SNES - Spider-Man - Playable Characters - Spider-Man_40: 2614334552412176925
+      SNES - Spider-Man - Playable Characters - Spider-Man_41: -1164017580221730819
+      SNES - Spider-Man - Playable Characters - Spider-Man_42: -2168123871006759500
+      SNES - Spider-Man - Playable Characters - Spider-Man_43: -8881831930651596835
+      SNES - Spider-Man - Playable Characters - Spider-Man_44: 2340272437127305313
+      SNES - Spider-Man - Playable Characters - Spider-Man_45: -5444153186393712250
+      SNES - Spider-Man - Playable Characters - Spider-Man_46: 1176592695785136842
+      SNES - Spider-Man - Playable Characters - Spider-Man_47: -708598932411630166
+      SNES - Spider-Man - Playable Characters - Spider-Man_48: 1512234437134111346
+      SNES - Spider-Man - Playable Characters - Spider-Man_49: 4231810473523999062
+      SNES - Spider-Man - Playable Characters - Spider-Man_5: 2510315597746281503
+      SNES - Spider-Man - Playable Characters - Spider-Man_50: -8620753354726170138
+      SNES - Spider-Man - Playable Characters - Spider-Man_51: -4821275844647631963
+      SNES - Spider-Man - Playable Characters - Spider-Man_52: 7774328552173718194
+      SNES - Spider-Man - Playable Characters - Spider-Man_53: -2082426968620507146
+      SNES - Spider-Man - Playable Characters - Spider-Man_54: 6060171645252131213
+      SNES - Spider-Man - Playable Characters - Spider-Man_55: -8541487787624566873
+      SNES - Spider-Man - Playable Characters - Spider-Man_56: 8669967329723584281
+      SNES - Spider-Man - Playable Characters - Spider-Man_57: 7160858220518051429
+      SNES - Spider-Man - Playable Characters - Spider-Man_58: -1947213709115380683
+      SNES - Spider-Man - Playable Characters - Spider-Man_59: -2336343858794892877
+      SNES - Spider-Man - Playable Characters - Spider-Man_6: -5996792714360164898
+      SNES - Spider-Man - Playable Characters - Spider-Man_60: -73622223057774074
+      SNES - Spider-Man - Playable Characters - Spider-Man_61: -9125437291271041386
+      SNES - Spider-Man - Playable Characters - Spider-Man_62: 1801334251188921896
+      SNES - Spider-Man - Playable Characters - Spider-Man_63: 7396544100653380726
+      SNES - Spider-Man - Playable Characters - Spider-Man_64: 7073209964035332214
+      SNES - Spider-Man - Playable Characters - Spider-Man_65: -3142030512550352065
+      SNES - Spider-Man - Playable Characters - Spider-Man_66: 2194894878872338573
+      SNES - Spider-Man - Playable Characters - Spider-Man_67: 7250949716026690795
+      SNES - Spider-Man - Playable Characters - Spider-Man_68: 6336793904777579307
+      SNES - Spider-Man - Playable Characters - Spider-Man_69: -2823240890578870379
+      SNES - Spider-Man - Playable Characters - Spider-Man_7: -8604087835171767414
+      SNES - Spider-Man - Playable Characters - Spider-Man_70: 6477737775184156995
+      SNES - Spider-Man - Playable Characters - Spider-Man_71: 963403269456845360
+      SNES - Spider-Man - Playable Characters - Spider-Man_72: -5828387971871552486
+      SNES - Spider-Man - Playable Characters - Spider-Man_73: 1932373534729495816
+      SNES - Spider-Man - Playable Characters - Spider-Man_74: 8097832987764563890
+      SNES - Spider-Man - Playable Characters - Spider-Man_75: 2387839714488477337
+      SNES - Spider-Man - Playable Characters - Spider-Man_76: -635516308975363832
+      SNES - Spider-Man - Playable Characters - Spider-Man_77: 7806181704685814627
+      SNES - Spider-Man - Playable Characters - Spider-Man_78: -8912216406432270402
+      SNES - Spider-Man - Playable Characters - Spider-Man_79: -9172177873068221072
+      SNES - Spider-Man - Playable Characters - Spider-Man_8: -5767078901987539839
+      SNES - Spider-Man - Playable Characters - Spider-Man_80: 8345545190688050714
+      SNES - Spider-Man - Playable Characters - Spider-Man_81: 8626474099753719800
+      SNES - Spider-Man - Playable Characters - Spider-Man_82: -8352362224283668745
+      SNES - Spider-Man - Playable Characters - Spider-Man_83: 2420096727686410029
+      SNES - Spider-Man - Playable Characters - Spider-Man_84: 2643684328411942728
+      SNES - Spider-Man - Playable Characters - Spider-Man_85: 3577309621027351454
+      SNES - Spider-Man - Playable Characters - Spider-Man_86: 3439789336783343828
+      SNES - Spider-Man - Playable Characters - Spider-Man_87: -6809089427084967199
+      SNES - Spider-Man - Playable Characters - Spider-Man_88: -3595658615579801148
+      SNES - Spider-Man - Playable Characters - Spider-Man_89: -5655568180389610049
+      SNES - Spider-Man - Playable Characters - Spider-Man_9: 4998934119119131545
+      SNES - Spider-Man - Playable Characters - Spider-Man_90: 8347547361352738083
+      SNES - Spider-Man - Playable Characters - Spider-Man_91: -895344511438469232
+      SNES - Spider-Man - Playable Characters - Spider-Man_92: 1898450237379802913
+      SNES - Spider-Man - Playable Characters - Spider-Man_93: 7552510551618963538
+      SNES - Spider-Man - Playable Characters - Spider-Man_94: -1957614597168214494
+      SNES - Spider-Man - Playable Characters - Spider-Man_95: 689187315691161706
+      SNES - Spider-Man - Playable Characters - Spider-Man_96: -4051408888259728462
+      SNES - Spider-Man - Playable Characters - Spider-Man_97: 5545151997301651093
+      SNES - Spider-Man - Playable Characters - Spider-Man_98: 6095034502744263692
+      SNES - Spider-Man - Playable Characters - Spider-Man_99: -2313664001730874877
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
