@@ -1,7 +1,13 @@
 using UnityEngine;
 
-public class Jugador: MonoBehaviour
+public class Jugador: Personaje
 {
+    // Método Awake para inicializar cualquier variable o estado antes de que el juego comience.
+    protected override void Awake()
+    {
+        base.Awake();
+    }
+
 
     //Variable para saber si el jugador esta tocando el suelo.
     public bool enSuelo = false;
