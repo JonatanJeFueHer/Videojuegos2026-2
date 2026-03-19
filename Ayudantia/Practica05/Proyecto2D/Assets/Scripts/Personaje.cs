@@ -2,7 +2,7 @@ using UnityEngine;
 //Super clase Personaje para un enemigo básico.
 public class Personaje : MonoBehaviour
 {
-    public float velicidad = 2f;
+    public float velocidad = 2f;
     public int vida = 1;
 
     protected Rigidbody2D rb;
