@@ -1,4 +1,5 @@
 using UnityEngine;
+
 //Super clase Personaje para un enemigo básico.
 public class Personaje : MonoBehaviour
 {
@@ -7,11 +8,13 @@ public class Personaje : MonoBehaviour
 
     protected Rigidbody2D rb;
     protected SpriteRenderer sr;
+    protected Animator anim;
 
     protected virtual void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
     }
 
     public virtual void RecibirDaño(int cantidad)
