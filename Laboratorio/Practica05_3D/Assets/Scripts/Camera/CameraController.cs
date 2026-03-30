@@ -14,7 +14,7 @@ public class CameraController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Cursor.LockState = CursorLockMode.Locked; // Bloquea el cursor en el centro de la pantalla.        
+        Cursor.lockState = CursorLockMode.Locked; // Bloquea el cursor en el centro de la pantalla.        
     }
 
     // Update is called once per frame 
@@ -28,7 +28,7 @@ public class CameraController : MonoBehaviour
         rotY = Mathf.Clamp(rotY, minY, maxY); // Limita la rotación vertical.
 
         transform.rotation = Quaternion.Euler(0, rotX, 0); // Rota la cámara horizontalmente.
-        pivot.LocalRotation = Quaternion.Euler(rotY, 0, 0); // Rota la cámara verticalmente alrededor del pivot.
+        pivot.localRotation = Quaternion.Euler(rotY, 0, 0); // Rota la cámara verticalmente alrededor del pivot.
 
         transform.position = target.position; // Mantiene la cámara en la posición del objetivo.
     }
