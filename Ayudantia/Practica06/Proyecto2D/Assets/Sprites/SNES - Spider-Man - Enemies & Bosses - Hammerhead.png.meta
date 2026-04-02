@@ -1,0 +1,665 @@
+fileFormatVersion: 2
+guid: 77af95d701a07d3428e78024394fa566
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7878981514515125179
+    second: SNES - Spider-Man - Enemies & Bosses - Hammerhead_0
+  - first:
+      213: -3918025134936878458
+    second: SNES - Spider-Man - Enemies & Bosses - Hammerhead_1
+  - first:
+      213: -5718741378621847621
+    second: SNES - Spider-Man - Enemies & Bosses - Hammerhead_2
+  - first:
+      213: -1524847761652775050
+    second: SNES - Spider-Man - Enemies & Bosses - Hammerhead_3
+  - first:
+      213: 4414105679025863620
+    second: SNES - Spider-Man - Enemies & Bosses - Hammerhead_4
+  - first:
+      213: 7696167172437547981
+    second: SNES - Spider-Man - Enemies & Bosses - Hammerhead_5
+  - first:
+      213: 3089785923663989906
+    second: SNES - Spider-Man - Enemies & Bosses - Hammerhead_6
+  - first:
+      213: 7986122606253142881
+    second: SNES - Spider-Man - Enemies & Bosses - Hammerhead_7
+  - first:
+      213: -4809542472326318234
+    second: SNES - Spider-Man - Enemies & Bosses - Hammerhead_8
+  - first:
+      213: 8287776170846046800
+    second: SNES - Spider-Man - Enemies & Bosses - Hammerhead_9
+  - first:
+      213: -8078737345352656019
+    second: SNES - Spider-Man - Enemies & Bosses - Hammerhead_10
+  - first:
+      213: 4193819692491859513
+    second: SNES - Spider-Man - Enemies & Bosses - Hammerhead_11
+  - first:
+      213: 148066891809172528
+    second: SNES - Spider-Man - Enemies & Bosses - Hammerhead_12
+  - first:
+      213: -7038036815170797666
+    second: SNES - Spider-Man - Enemies & Bosses - Hammerhead_13
+  - first:
+      213: -5907665622802556052
+    second: SNES - Spider-Man - Enemies & Bosses - Hammerhead_14
+  - first:
+      213: 7169449367888326798
+    second: SNES - Spider-Man - Enemies & Bosses - Hammerhead_15
+  - first:
+      213: -4612147986900749358
+    second: SNES - Spider-Man - Enemies & Bosses - Hammerhead_16
+  - first:
+      213: 1876972815093143506
+    second: SNES - Spider-Man - Enemies & Bosses - Hammerhead_17
+  - first:
+      213: -5420032590284588994
+    second: SNES - Spider-Man - Enemies & Bosses - Hammerhead_18
+  - first:
+      213: 2642267437316350012
+    second: SNES - Spider-Man - Enemies & Bosses - Hammerhead_19
+  - first:
+      213: -7090315482602190293
+    second: SNES - Spider-Man - Enemies & Bosses - Hammerhead_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Enemies & Bosses - Hammerhead_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 101
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb31b8c51f3c75d60800000000000000
+      internalID: 7878981514515125179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Enemies & Bosses - Hammerhead_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 101
+        width: 53
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682190bf5e060a9c0800000000000000
+      internalID: -3918025134936878458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Enemies & Bosses - Hammerhead_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 101
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7caece303f2a0b0800000000000000
+      internalID: -5718741378621847621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Enemies & Bosses - Hammerhead_3
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 101
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677032e2a07a6dae0800000000000000
+      internalID: -1524847761652775050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Enemies & Bosses - Hammerhead_4
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 101
+        width: 41
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cbfe576abd024d30800000000000000
+      internalID: 4414105679025863620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Enemies & Bosses - Hammerhead_5
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 101
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb992d64474eca60800000000000000
+      internalID: 7696167172437547981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Enemies & Bosses - Hammerhead_6
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 101
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c8efb5def11ea20800000000000000
+      internalID: 3089785923663989906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Enemies & Bosses - Hammerhead_7
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 101
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1637f66b23864de60800000000000000
+      internalID: 7986122606253142881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Enemies & Bosses - Hammerhead_8
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 24
+        width: 38
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 667f5dc7a92114db0800000000000000
+      internalID: -4809542472326318234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Enemies & Bosses - Hammerhead_9
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 11
+        width: 56
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ac9315488140370800000000000000
+      internalID: 8287776170846046800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Enemies & Bosses - Hammerhead_10
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 85
+        width: 61
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b9298ff2f82ef80800000000000000
+      internalID: -8078737345352656019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Enemies & Bosses - Hammerhead_11
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 85
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936e30f5ac0733a30800000000000000
+      internalID: 4193819692491859513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Enemies & Bosses - Hammerhead_12
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 84
+        width: 51
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c2849bd0a0e0200800000000000000
+      internalID: 148066891809172528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Enemies & Bosses - Hammerhead_13
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 85
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f7f934eced35e90800000000000000
+      internalID: -7038036815170797666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Enemies & Bosses - Hammerhead_14
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 84
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b111d8a61c30ea0800000000000000
+      internalID: -5907665622802556052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Enemies & Bosses - Hammerhead_15
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 84
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80f128f6300f7360800000000000000
+      internalID: 7169449367888326798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Enemies & Bosses - Hammerhead_16
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 74
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d37f3597db5effb0800000000000000
+      internalID: -4612147986900749358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Enemies & Bosses - Hammerhead_17
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 74
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d711b8a4d85c0a10800000000000000
+      internalID: 1876972815093143506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Enemies & Bosses - Hammerhead_18
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 74
+        width: 67
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38fb01631d28c4b0800000000000000
+      internalID: -5420032590284588994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Enemies & Bosses - Hammerhead_19
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 24
+        width: 58
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c30a2d22c383ba420800000000000000
+      internalID: 2642267437316350012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Spider-Man - Enemies & Bosses - Hammerhead_20
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 24
+        width: 59
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a4b0a72a32a9d90800000000000000
+      internalID: -7090315482602190293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ef7dd213d3809954bbe8370c0e16305f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":50.0,"y":80.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      SNES - Spider-Man - Enemies & Bosses - Hammerhead_0: 7878981514515125179
+      SNES - Spider-Man - Enemies & Bosses - Hammerhead_1: -3918025134936878458
+      SNES - Spider-Man - Enemies & Bosses - Hammerhead_10: -8078737345352656019
+      SNES - Spider-Man - Enemies & Bosses - Hammerhead_11: 4193819692491859513
+      SNES - Spider-Man - Enemies & Bosses - Hammerhead_12: 148066891809172528
+      SNES - Spider-Man - Enemies & Bosses - Hammerhead_13: -7038036815170797666
+      SNES - Spider-Man - Enemies & Bosses - Hammerhead_14: -5907665622802556052
+      SNES - Spider-Man - Enemies & Bosses - Hammerhead_15: 7169449367888326798
+      SNES - Spider-Man - Enemies & Bosses - Hammerhead_16: -4612147986900749358
+      SNES - Spider-Man - Enemies & Bosses - Hammerhead_17: 1876972815093143506
+      SNES - Spider-Man - Enemies & Bosses - Hammerhead_18: -5420032590284588994
+      SNES - Spider-Man - Enemies & Bosses - Hammerhead_19: 2642267437316350012
+      SNES - Spider-Man - Enemies & Bosses - Hammerhead_2: -5718741378621847621
+      SNES - Spider-Man - Enemies & Bosses - Hammerhead_20: -7090315482602190293
+      SNES - Spider-Man - Enemies & Bosses - Hammerhead_3: -1524847761652775050
+      SNES - Spider-Man - Enemies & Bosses - Hammerhead_4: 4414105679025863620
+      SNES - Spider-Man - Enemies & Bosses - Hammerhead_5: 7696167172437547981
+      SNES - Spider-Man - Enemies & Bosses - Hammerhead_6: 3089785923663989906
+      SNES - Spider-Man - Enemies & Bosses - Hammerhead_7: 7986122606253142881
+      SNES - Spider-Man - Enemies & Bosses - Hammerhead_8: -4809542472326318234
+      SNES - Spider-Man - Enemies & Bosses - Hammerhead_9: 8287776170846046800
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
