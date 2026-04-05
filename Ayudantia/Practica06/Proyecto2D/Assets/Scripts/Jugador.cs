@@ -21,7 +21,7 @@ public class Jugador: Personaje
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     //Método para cambiar el estado de la variable enSuelo a true en caso de que el collider del suelo entre en contacto con el collider del sprite del jugador.

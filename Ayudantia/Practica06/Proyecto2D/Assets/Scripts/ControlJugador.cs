@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ControlJugador : MonoBehaviour
+public class ControlJugador : Personaje
 {
     //Variables para velocidad, aceleración, gravedad y estado vertical.
     public float velocidadActual = 0f;
@@ -37,6 +37,10 @@ public class ControlJugador : MonoBehaviour
     public AudioClip sonidoPaso;
     public AudioSource audioSrc;
 
+    //Variables para disparo.
+    public GameObject prefabProyectil;
+    public Transform puntoDisparo;
+
     //Inicializamos referencia a Jugador, Animator y AudioSource.
     void Awake()
     {
@@ -54,6 +58,23 @@ public class ControlJugador : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Disparo.
+        if (Input.GetButtonDown("Fire1"))
+        {
+            Disparar();
+        }
+
+        void Disparar()
+        {
+            GameObject p = Instantiate(prefabProyectil, puntoDisparo.position, Quaternion.identity);
+
+            Vector2 dir = sr.flipX ? Vector2.left : Vector2.right;
+            
+            float velocidadJugador = velocidadActual;
+
+            p.GetComponent<Proyectil>().Inicializar(dir, velocidadJugador);
+        }
+
         //Actualización del estado para las variables para animaciones.
         estaCaminando = Mathf.Abs(velocidadActual) > 0.1f;
         estaSaltando = velocidadVertical > 0.1f;

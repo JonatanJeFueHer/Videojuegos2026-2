@@ -119,6 +119,16 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &269542073 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7499890030240889458, guid: fe819669253ac9f41acc816867005504, type: 3}
+  m_PrefabInstance: {fileID: 6243684050514041144}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &269542077 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8497297471029280795, guid: fe819669253ac9f41acc816867005504, type: 3}
+  m_PrefabInstance: {fileID: 6243684050514041144}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -418,6 +428,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a1aca8506ac4041a9fde077e020a0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ControlJugador
+  velocidad: 2
+  vida: 1
   velocidadActual: 0
   velocidadMax: 5
   aceleracion: 10
@@ -435,6 +447,8 @@ MonoBehaviour:
   sonidoSalto: {fileID: 8300000, guid: 5dccc0bdd285c6e44a9e291cb35bc7c9, type: 3}
   sonidoPaso: {fileID: 8300000, guid: d29fed02b0477614e86ca722848c2967, type: 3}
   audioSrc: {fileID: 0}
+  prefabProyectil: {fileID: 269542073}
+  puntoDisparo: {fileID: 269542077}
 --- !u!95 &1420109422
 Animator:
   serializedVersion: 7
@@ -1165,6 +1179,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3525233129733163871, guid: fe819669253ac9f41acc816867005504, type: 3}
+      propertyPath: m_Size.x
+      value: 0.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 3525233129733163871, guid: fe819669253ac9f41acc816867005504, type: 3}
+      propertyPath: m_Size.y
+      value: 0.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 3525233129733163871, guid: fe819669253ac9f41acc816867005504, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7894012213486950185, guid: 9246b93d85a8c7b438bd0c43e887a67e, type: 3}
+    - target: {fileID: 3525233129733163871, guid: fe819669253ac9f41acc816867005504, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7499890030240889458, guid: fe819669253ac9f41acc816867005504, type: 3}
       propertyPath: m_Name
       value: Proyectil
