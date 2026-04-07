@@ -1,0 +1,27 @@
+using UnityEngine;
+
+public class PlataformaMovil : MonoBehaviour
+{
+    public Transform puntoA;
+    public Transform puntoB;
+    public float velocidad = 2f;
+
+    private Transform objetivo;
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        objetivo = puntoA;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.position = Vector2.MoveTowards(transform.position, objetivo.position, velocidad * Time.deltaTime);
+
+        if(Vector2.Distance(transform.position, objetivo.position) < 0.1f)
+        {
+            objetivo = (objetivo == puntoA) ? puntoB : puntoA;
+        }
+    }
+}
