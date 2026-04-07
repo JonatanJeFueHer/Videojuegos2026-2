@@ -25,6 +25,7 @@ public class ControlJugador : Personaje
     public bool estaCaminando;
     public bool estaSaltando;
     public bool estaCayendo;
+    public bool estaDisparando;
 
     //variable para acceder al script jugador.
     private Jugador jugador;
@@ -35,7 +36,9 @@ public class ControlJugador : Personaje
     //Variables para efectos de sonido.
     public AudioClip sonidoSalto;
     public AudioClip sonidoPaso;
+    public AudioClip sonidoDisparo;
     public AudioSource audioSrc;
+
 
     //Variables para disparo.
     public GameObject prefabProyectil;
@@ -66,7 +69,20 @@ public class ControlJugador : Personaje
         float velocidadJugador = velocidadActual;
 
         p.GetComponent<Proyectil>().Inicializar(dir, velocidadJugador);
+
+        if (!estaDisparando && estaCaminando)
+        {
+            anim.SetTrigger("Caminando");
+            audioSrc.PlayOneShot(sonidoDisparo);
+        }
+        else
+        {
+            anim.SetTrigger("Disparando");
+            audioSrc.PlayOneShot(sonidoDisparo);
+
+        }
     }
+
 
     // Update is called once per frame
     void Update()
@@ -88,6 +104,7 @@ public class ControlJugador : Personaje
             anim.SetBool("Caminando", estaCaminando);
             anim.SetBool("Saltando", estaSaltando);
             anim.SetBool("Cayendo", estaCayendo);
+            anim.SetBool("Disparando", estaDisparando);
         }
 
         //Calculo manual de deltaTime.
