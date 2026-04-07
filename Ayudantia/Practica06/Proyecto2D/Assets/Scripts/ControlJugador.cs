@@ -47,12 +47,25 @@ public class ControlJugador : Personaje
         jugador = GetComponent<Jugador>();
         anim = GetComponent<Animator>();
         audioSrc = GetComponent<AudioSource>();
+        sr = GetComponent<SpriteRenderer>();
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         jugador = GetComponent<Jugador>();
+    }
+
+    // Método para instanciar el proyectil y darle dirección y velocidad.
+    void Disparar()
+    {
+        GameObject p = Instantiate(prefabProyectil, puntoDisparo.position, Quaternion.identity);
+
+        Vector2 dir = sr.flipX ? Vector2.left : Vector2.right;
+
+        float velocidadJugador = velocidadActual;
+
+        p.GetComponent<Proyectil>().Inicializar(dir, velocidadJugador);
     }
 
     // Update is called once per frame
@@ -62,17 +75,6 @@ public class ControlJugador : Personaje
         if (Input.GetButtonDown("Fire1"))
         {
             Disparar();
-        }
-
-        void Disparar()
-        {
-            GameObject p = Instantiate(prefabProyectil, puntoDisparo.position, Quaternion.identity);
-
-            Vector2 dir = sr.flipX ? Vector2.left : Vector2.right;
-            
-            float velocidadJugador = velocidadActual;
-
-            p.GetComponent<Proyectil>().Inicializar(dir, velocidadJugador);
         }
 
         //Actualización del estado para las variables para animaciones.
