@@ -25,7 +25,7 @@ public class ControlJugador : Personaje
     public bool estaCaminando;
     public bool estaSaltando;
     public bool estaCayendo;
-    public bool estaDisparando;
+    public bool estaDisparando = false;
 
     //variable para acceder al script jugador.
     private Jugador jugador;
@@ -70,16 +70,14 @@ public class ControlJugador : Personaje
 
         p.GetComponent<Proyectil>().Inicializar(dir, velocidadJugador);
 
-        if (!estaDisparando && estaCaminando)
+        estaDisparando = true;
+        Debug.Log("estaDisparando es " + estaDisparando);
+        if (estaDisparando)
         {
-            anim.SetTrigger("Caminando");
-            audioSrc.PlayOneShot(sonidoDisparo);
-        }
-        else
-        {
+            Debug.Log("Estoy dentro el if");
             anim.SetTrigger("Disparando");
             audioSrc.PlayOneShot(sonidoDisparo);
-
+            estaDisparando = false;
         }
     }
 
