@@ -30,9 +30,11 @@ public class PlayerMovementAnim : MonoBehaviour
         Vector3 direction = new Vector3(x, 0, z);
         if (direction.magnitude > 0.1f)
         {
+            Quaternion targetRotation = Quaternion.LookRotation(moveDir);
+
             transform.rotation = Quaternion.Slerp(
             transform.rotation,
-            Quaternion.LookRotation(moveDir),
+            targetRotation,
             Time.deltaTime * 10f
             );
         }
