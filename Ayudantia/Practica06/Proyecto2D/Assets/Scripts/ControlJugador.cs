@@ -70,15 +70,8 @@ public class ControlJugador : Personaje
 
         p.GetComponent<Proyectil>().Inicializar(dir, velocidadJugador);
 
-        estaDisparando = true;
-        Debug.Log("estaDisparando es " + estaDisparando);
-        if (estaDisparando)
-        {
-            Debug.Log("Estoy dentro el if");
-            anim.SetTrigger("Disparando");
-            audioSrc.PlayOneShot(sonidoDisparo);
-            estaDisparando = false;
-        }
+        anim.SetTrigger("Disparando");
+        audioSrc.PlayOneShot(sonidoDisparo);
     }
 
 
