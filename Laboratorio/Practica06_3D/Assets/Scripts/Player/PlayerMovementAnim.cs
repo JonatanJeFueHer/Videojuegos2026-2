@@ -1,8 +1,11 @@
 using UnityEngine;
+
 public class PlayerMovementAnim : MonoBehaviour
 {
+    public Transform cameraTransform;
     Animator anim;
     CharacterController controller;
+
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -12,14 +15,24 @@ public class PlayerMovementAnim : MonoBehaviour
     {
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
-        float speedValue = new Vector2(x, z).magnitude;
+        Vector3 camForward = cameraTransform.forward;
+        Vector3 camRight = cameraTransform.right;
+        Vector3 moveDir = camForward * z + camRight * x;
+        float speedValue = moveDir.magnitude;
         anim.SetFloat("Speed", speedValue);
+
+        camForward.y = 0f;
+        camRight.y = 0f;
+
+        camForward.Normalize();
+        camRight.Normalize();
+
         Vector3 direction = new Vector3(x, 0, z);
         if (direction.magnitude > 0.1f)
         {
             transform.rotation = Quaternion.Slerp(
             transform.rotation,
-            Quaternion.LookRotation(direction),
+            Quaternion.LookRotation(moveDir),
             Time.deltaTime * 10f
             );
         }
@@ -31,5 +44,6 @@ public class PlayerMovementAnim : MonoBehaviour
         {
             anim.SetBool("IsJumping", false);
         }
+
     }
 }
